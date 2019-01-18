@@ -2,7 +2,6 @@
 const startingPoint = 42
 
 function distanceFromHqInBlocks(block) {
-  return block-startingPoint
   if (block < startingPoint) {
     return startingPoint - block
   } else {
