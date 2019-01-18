@@ -5,6 +5,6 @@ function distanceFromHqInBlocks(block) {
   if (block < startingPoint) {
     return startingPoint - block
   } else {
-    return block-startingPoint
+    return block - startingPoint
   }
 }
