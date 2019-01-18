@@ -11,6 +11,6 @@ function distanceFromHqInBlocks(block) {
 }
 function distanceFromHqInFeet(block) {
   if (block < startingPoint) {
-    return (startingPoint - block) * 264
+    return (startingPoint - block) * feetInBlock
   }
 }
